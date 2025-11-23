@@ -63,17 +63,50 @@ Y= A⊕B
 
 
 **PROGRAM**
+```
+
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+ Developed by:DIVYA PRIYA.S
+ RegisterNumber: 25018016
+ --------------------------------------
+Gates
+--------------------------------------
+module Gate_1 (
+    input  wire a,     // Input A
+    input  wire b,     // Input B
+    output wire and_out,
+    output wire or_out,
+    output wire not_out,   // only on A
+    output wire nand_out,
+    output wire nor_out,
+    output wire xor_out,
+    output wire xnor_out
+);
+
+    assign and_out  = a & b;      // AND gate
+    assign or_out   = a | b;      // OR gate
+    assign not_out  = ~a;         // NOT gate (on input A)
+    assign nand_out = ~(a & b);   // NAND gate
+    assign nor_out  = ~(a | b);   // NOR gate
+    assign xor_out  = a ^ b;      // XOR gate
+    assign xnor_out = ~(a ^ b);   // XNOR gate
+
+endmodule
+
+
+ ```
 **Logic symbol & Truthtable**
+<img width="1851" height="924" alt="AdobeExpressPhotos_ef3b5cd848334199b334eb681ce6ff5d_CopyEdited" src="https://github.com/user-attachments/assets/4fc160bf-27a3-413e-9bb7-9ce64ede730a" />
 
 **RTL realization Output:** 
+<img width="1920" height="1080" alt="Screenshot 2025-11-20 163949" src="https://github.com/user-attachments/assets/895c366d-6faa-41a4-b4eb-8664a8e855b6" />
 
 **RTL**
+<img width="1904" height="1015" alt="AdobeExpressPhotos_c2469d5291fa4b3cbe0c91e6f7e54c83_CopyEdited" src="https://github.com/user-attachments/assets/5ee4f0f9-028d-481d-8962-0cd7506c6624" />
 
 **Result:**
 
+Thus the basic logic gates are studied and the truth tables are verified.
 
