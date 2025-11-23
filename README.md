@@ -104,7 +104,7 @@ endmodule
 <img width="1920" height="1080" alt="Screenshot 2025-11-20 163949" src="https://github.com/user-attachments/assets/895c366d-6faa-41a4-b4eb-8664a8e855b6" />
 
 **RTL**
-<img width="1904" height="1015" alt="AdobeExpressPhotos_c2469d5291fa4b3cbe0c91e6f7e54c83_CopyEdited" src="https://github.com/user-attachments/assets/5ee4f0f9-028d-481d-8962-0cd7506c6624" />
+<img width="1907" height="1006" alt="AdobeExpressPhotos_69721a4260704bf5af8dde4ee8ddf4b0_CopyEdited" src="https://github.com/user-attachments/assets/515b98ee-6f51-4d6f-ae17-b33830d9a9df" />
 
 **Result:**
 
